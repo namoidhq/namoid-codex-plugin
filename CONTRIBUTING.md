@@ -10,3 +10,6 @@ Thank you for helping improve NamoID's Codex integration.
 5. Run the repository validation workflow before submitting a pull request.
 
 By contributing, you agree that your contribution is licensed under the MIT License.
+
+Participation is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). Report
+security issues privately according to [SECURITY.md](SECURITY.md).
