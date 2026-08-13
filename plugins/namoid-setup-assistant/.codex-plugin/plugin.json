@@ -9,7 +9,7 @@
   },
   "homepage": "https://namoid.in",
   "repository": "https://github.com/namoidhq/namoid-codex-plugin",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": ["authentication", "identity", "mcp", "namoid"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",

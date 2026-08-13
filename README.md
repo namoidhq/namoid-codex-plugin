@@ -14,6 +14,6 @@ OAuth permission contracts.
 
 ## Security and contributions
 
-The integration is open source under Apache-2.0. See [CONTRIBUTING.md](CONTRIBUTING.md)
+The integration is open source under the [MIT License](LICENSE). See [CONTRIBUTING.md](CONTRIBUTING.md)
 before proposing changes and [SECURITY.md](SECURITY.md) for private vulnerability
 reporting. Never submit NamoID credentials, OAuth tokens, or customer data.

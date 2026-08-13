@@ -9,4 +9,4 @@ Thank you for helping improve NamoID's Codex integration.
    configuration writes.
 5. Run the repository validation workflow before submitting a pull request.
 
-By contributing, you agree that your contribution is licensed under Apache-2.0.
+By contributing, you agree that your contribution is licensed under the MIT License.
