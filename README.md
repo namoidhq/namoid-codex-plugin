@@ -1,0 +1,13 @@
+# NamoID Setup Assistant for Codex
+
+Official Codex marketplace repository for NamoID. The first plugin connects
+Codex to NamoID's Setup Assistant MCP and adds a focused workflow for
+configuring and diagnosing Customer Identity integrations.
+
+The plugin uses NamoID OAuth in the browser. Permissions remain revocable and
+are limited to `setup.read` plus user-approved `setup.write`. The plugin does
+not contain credentials or duplicate NamoID configuration logic.
+
+The repository deliberately keeps Codex-specific packaging separate from the
+NamoID CLI and Claude Code plugin. All three use the same remote MCP tool and
+OAuth permission contracts.

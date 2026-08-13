@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "namoid-setup-assistant": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://api.namoid.in/v1/setup/mcp"]
+    }
+  }
+}

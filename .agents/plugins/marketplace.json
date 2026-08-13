@@ -1,0 +1,20 @@
+{
+  "name": "namoid",
+  "interface": {
+    "displayName": "NamoID"
+  },
+  "plugins": [
+    {
+      "name": "namoid-setup-assistant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/namoid-setup-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
