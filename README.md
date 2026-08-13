@@ -11,3 +11,9 @@ not contain credentials or duplicate NamoID configuration logic.
 The repository deliberately keeps Codex-specific packaging separate from the
 NamoID CLI and Claude Code plugin. All three use the same remote MCP tool and
 OAuth permission contracts.
+
+## Security and contributions
+
+The integration is open source under Apache-2.0. See [CONTRIBUTING.md](CONTRIBUTING.md)
+before proposing changes and [SECURITY.md](SECURITY.md) for private vulnerability
+reporting. Never submit NamoID credentials, OAuth tokens, or customer data.

@@ -1,0 +1,30 @@
+name: Validate plugin
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate JSON
+        run: |
+          python -m json.tool .agents/plugins/marketplace.json >/dev/null
+          python -m json.tool plugins/namoid-setup-assistant/.codex-plugin/plugin.json >/dev/null
+          python -m json.tool plugins/namoid-setup-assistant/.mcp.json >/dev/null
+      - name: Validate public repository boundaries
+        run: |
+          test -f LICENSE
+          test -f SECURITY.md
+          test -f CONTRIBUTING.md
+          ! find . -path ./.git -prune -o -type f \( -name '*.pem' -o -name '*.key' -o -name '.env' -o -name '.env.*' \) -print | grep .
+          ! grep -RInE --exclude-dir=.git '(BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|AWS_SECRET_ACCESS_KEY=|sk_live_[A-Za-z0-9])' .
