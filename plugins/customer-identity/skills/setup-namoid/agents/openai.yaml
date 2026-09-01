@@ -1,4 +1,4 @@
 interface:
   display_name: "Set up NamoID"
   short_description: "Configure and diagnose NamoID Customer Identity."
-  default_prompt: "Set up NamoID authentication for this application using the NamoID Setup Assistant."
+  default_prompt: "Set up NamoID authentication for this application using NamoID."

@@ -1,4 +1,4 @@
-# NamoID Setup Assistant for Codex
+# NamoID Customer Identity for Codex
 
 [![Validation](https://github.com/namoidhq/namoid-codex-plugin/actions/workflows/validate.yml/badge.svg)](https://github.com/namoidhq/namoid-codex-plugin/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -14,8 +14,9 @@ canonical skills ship with the NamoID CLI and Claude Code plugin.
 The MCP connection uses the canonical `https://mcp.namoid.in` endpoint.
 
 The plugin uses NamoID OAuth in the browser. Permissions remain revocable and
-are limited to `setup.read` plus user-approved `setup.write`. The plugin does
-not contain credentials or duplicate NamoID configuration logic.
+use the protected-resource scopes `customer-identity:read` and user-approved
+`customer-identity:configure`. The plugin does not contain credentials or duplicate
+NamoID configuration logic.
 
 The repository deliberately keeps Codex-specific packaging separate from the
 NamoID CLI and Claude Code plugin. All three use the same remote MCP tool and

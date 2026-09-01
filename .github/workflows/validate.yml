@@ -19,8 +19,8 @@ jobs:
       - name: Validate JSON
         run: |
           python -m json.tool .agents/plugins/marketplace.json >/dev/null
-          python -m json.tool plugins/namoid-setup-assistant/.codex-plugin/plugin.json >/dev/null
-          python -m json.tool plugins/namoid-setup-assistant/.mcp.json >/dev/null
+          python -m json.tool plugins/customer-identity/.codex-plugin/plugin.json >/dev/null
+          python -m json.tool plugins/customer-identity/.mcp.json >/dev/null
       - name: Validate public repository boundaries
         run: |
           test -f LICENSE

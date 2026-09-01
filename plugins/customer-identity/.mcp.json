@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "namoid-setup-assistant": {
+    "namoid-customer-identity": {
       "command": "npx",
       "args": ["-y", "mcp-remote", "https://mcp.namoid.in"]
     }
