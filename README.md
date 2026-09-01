@@ -7,6 +7,8 @@ Official Codex marketplace repository for NamoID. The first plugin connects
 Codex to NamoID's Setup Assistant MCP and adds a focused workflow for
 configuring and diagnosing Customer Identity integrations.
 
+The MCP connection uses the canonical `https://mcp.namoid.in` endpoint.
+
 The plugin uses NamoID OAuth in the browser. Permissions remain revocable and
 are limited to `setup.read` plus user-approved `setup.write`. The plugin does
 not contain credentials or duplicate NamoID configuration logic.
