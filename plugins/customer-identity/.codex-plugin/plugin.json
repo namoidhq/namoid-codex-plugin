@@ -1,6 +1,6 @@
 {
-  "name": "namoid-setup-assistant",
-  "version": "0.1.0",
+  "name": "customer-identity",
+  "version": "0.2.0",
   "description": "Set up and diagnose NamoID Customer Identity from Codex.",
   "author": {
     "name": "NamoID",
@@ -14,7 +14,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "NamoID Setup Assistant",
+    "displayName": "NamoID Customer Identity",
     "shortDescription": "Set up NamoID authentication from Codex.",
     "longDescription": "Configure and diagnose NamoID Customer Identity through the scoped, user-approved Setup Assistant MCP.",
     "developerName": "NamoID",

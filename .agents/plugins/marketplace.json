@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "namoid-setup-assistant",
+      "name": "customer-identity",
       "source": {
         "source": "local",
-        "path": "./plugins/namoid-setup-assistant"
+        "path": "./plugins/customer-identity"
       },
       "policy": {
         "installation": "AVAILABLE",
