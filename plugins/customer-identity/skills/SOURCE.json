@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/namoidhq/namoid-agent-integrations",
+  "tag": "v0.1.0",
+  "files": {
+    "diagnose-namoid/SKILL.md": "d6b3952414ca6d315955db4982ad3fbaa2402015dd031433578e9d00894d87e8",
+    "implement-namoid-logout/SKILL.md": "f89d643522392af69c470e877047627f8eeb831979eb936e74c55cefbb2bf57c",
+    "prepare-namoid-production/SKILL.md": "045598ae01e43e274b85b1a6876edfec401620a397f2c5df039978166f4ca79a",
+    "review-namoid-sessions/SKILL.md": "4fcd7efded266c379238a7638ad8d5880b4e2128ba898884f6518d5e477410fd",
+    "setup-namoid/SKILL.md": "75cbd192ed9c406873472ed7bdad9b15d45c1b197905fe6f0a13c8773b92e662",
+    "setup-namoid/references/customer-identity-sdks.md": "daac9a2f00bffac6588e5d334799e66f3aad56a71316d780ae358fdb2a325bb8",
+    "verify-namoid/SKILL.md": "a48d4e028d9a075a175979a4dca16eb1dc39a3eb76145f231142d762412f7e43"
+  }
+}

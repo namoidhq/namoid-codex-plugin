@@ -21,6 +21,8 @@ jobs:
           python -m json.tool .agents/plugins/marketplace.json >/dev/null
           python -m json.tool plugins/customer-identity/.codex-plugin/plugin.json >/dev/null
           python -m json.tool plugins/customer-identity/.mcp.json >/dev/null
+          python -m json.tool plugins/customer-identity/skills/SOURCE.json >/dev/null
+          python scripts/verify-canonical-skills.py
       - name: Validate public repository boundaries
         run: |
           test -f LICENSE
